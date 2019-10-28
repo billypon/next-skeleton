@@ -15,6 +15,15 @@ module.exports = withPlugins([
     {
       stylusLoaderOptions: {
         include: [ __dirname, __dirname + '/node_modules' ],
+        use: [ require('stylus-less')({ cache: false }) ],
+      },
+    }
+  ],
+  [
+    require('@zeit/next-less'),
+    {
+      lessLoaderOptions: {
+        sourceMap: { sourceMapFileInline: true },
       },
     }
   ],
@@ -28,6 +37,10 @@ module.exports = withPlugins([
     require('next-transpile-modules'),
     {
       transpileModules: [
+        'redux/es/redux', 'react-redux/es', 'react-redux/es/.*', 'next-redux-wrapper/es6',
+        'antd/es/.*', 'rc-.*', 'css-animation/es/*',
+        '@billypon/react-decorator',
+        'lodash-es',
       ],
     }
   ],

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+lessc --include-path=node_modules --clean-css styles/loading.less > static/loading.css
