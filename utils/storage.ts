@@ -24,3 +24,7 @@ class Storage {
 }
 
 export const storage = new Storage
+
+export function checkLogin(): boolean {
+  return localStorage.token
+}

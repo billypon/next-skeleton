@@ -2,10 +2,10 @@ import NextApp from 'next/app'
 import { loadGetInitialProps } from 'next/dist/next-server/lib/utils'
 import { Provider } from 'react-redux/es'
 import withRedux, { NextJSAppContext, AppProps } from 'next-redux-wrapper/es6'
+import '@billypon/react-utils/axios'
 
 import { initializeStore } from '~/utils/redux'
 
-import '~/utils/axios'
 import '~/styles/index.less'
 import '~/styles/index.styl'
 import '~/icons'

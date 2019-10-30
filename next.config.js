@@ -39,6 +39,8 @@ module.exports = withPlugins([
       transpileModules: [
         'redux/es/redux', 'react-redux/es', 'react-redux/es/.*', 'next-redux-wrapper/es6',
         'antd/es/.*', 'rc-.*', 'css-animation/es/*',
+        '@billypon/react-utils',
+        '@billypon/react-template',
         '@billypon/react-decorator',
         'lodash-es',
       ],

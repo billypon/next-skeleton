@@ -995,6 +995,16 @@
   dependencies:
     reflect-metadata "0.1.13"
 
+"@billypon/react-template@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@billypon/react-template/-/react-template-0.1.0.tgz#a59ca56516faef1d9a86bc2d88161444a72037a5"
+  integrity sha512-Bi8nDjrXP0RiUETbaSgO657TEIVZQmc86VItbzqMuLdYONBcHZJ/WR51uUJnW2/YuegpdE6nxc4uQCOnha00Jw==
+
+"@billypon/react-utils@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@billypon/react-utils/-/react-utils-0.1.5.tgz#c81c272f362efaadd81991b8466e8165ba1dfe5b"
+  integrity sha512-BZb/Qp918hGTjgF0eH79OIYGYS3qwVWWMq5eKus0mZdwgbHdi22bLu15umBrtJOs375dlBBfk2CH8gJa9uGGcA==
+
 "@billypon/rxjs-types@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@billypon/rxjs-types/-/rxjs-types-0.1.0.tgz#0733107b540f5075e8a623a6cface4c0d93cc460"

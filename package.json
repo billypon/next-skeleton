@@ -12,7 +12,7 @@
     "build-icon": "bin/build-icon",
     "build-style": "bin/build-style",
     "build-loading": "bin/build-loading",
-    "lint": "eslint pages components utils icons --ext .ts,.tsx -f codeframe",
+    "lint": "eslint pages components utils apis icons --ext .ts,.tsx -f codeframe",
     "postinstall": "patch-package"
   },
   "dependencies": {
@@ -32,6 +32,8 @@
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "7.6.0",
     "@billypon/react-decorator": "0.1.4",
+    "@billypon/react-template": "0.1.0",
+    "@billypon/react-utils": "0.1.5",
     "@billypon/rxjs-types": "0.1.0",
     "@billypon/ts-types": "0.1.0",
     "@types/next": "8.0.6",
