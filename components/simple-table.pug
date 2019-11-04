@@ -1,0 +1,7 @@
+.ant-table
+  .ant-table-content
+    .ant-table-body
+      table
+        if props.header
+          thead.ant-table-thead= props.header
+        tbody.ant-table-tbody= props.body || props.children
